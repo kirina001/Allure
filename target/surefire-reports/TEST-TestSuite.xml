@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.329" tests="61" errors="0" skipped="0" failures="61">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\space\eclipse\Allure"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\space\eclipse\Allure"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\space\eclipse\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6393826009243396829.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;D:\Development\android-sdk\platform-tools;D:\Development\android-sdk\tools;D:\Development\android-sdk\build-tools;CLASSPATH=D:\test\apache-ant-1.10.5\lib;D:\test\apache-ant-1.10.5\bin;D:\software\development\apache-tomcat-8.5.30\lib;D:\software\development\apache-tomcat-8.5.30\bin;%PY_HOME\Scripts%;D:\test\apache-ant-1.10.5\lib;D:\test\apache-ant-1.10.5\bin;D:\Development\python37;D:\Development\python37\Scripts;d:\Program Files (x86)\STMicroelectronics\st_toolset\asm;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Tools\python;D:\test\apache-maven-3.6.1\bin\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;D:\software\development\apache-tomcat-8.5.30\lib;D:\software\development\apache-tomcat-8.5.30\bin;D:\Development\nodejs;C:\Program Files\TortoiseSVN\bin;D:\test\apache-jmeter-5.1.1\bin;D:\Tools\Git\cmd;D:\Development\mysql\bin;D:\Development\Git\cmd;D:\Development\nodejs;D:\Development\npm;D:\Java\jdk1.8.0_144\bin;D:\test\Fiddler;C:\Users\hp\AppData\Roaming\npm;D:\Development\eclipse-jee-2018-09-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\hp"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="hp"/>
+    <property name="java.class.path" value="D:\Development\eclipse-jee-2018-09-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\space\eclipse\Allure\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="assertResults" classname="com.music.allureTest.DataDrivenInvoke" time="0.319">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+</failure>
+    <system-out><![CDATA[所需路径D:\space\eclipse\Allure\cases\result-20190625+08-31-14music_auto_testng.xlsx
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[1
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[2
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[3记录cookie
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[4登录
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[5注册
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[6
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[7用户名1位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[8用户名2位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[9用户名18位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[10密码5位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[11密码6位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[12密码7位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[13密码17位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[14密码18位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[15密码19位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.02">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[16昵称1位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[17昵称2位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[18昵称18位
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[19
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[20用户名包含中文
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.02">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[21昵称包含中文
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[22密码包含中文
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[23用户名已存在
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[24填写多余参数
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[25密码为6位纯数字
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.09">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[26密码为6位纯字母
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[27用户名为纯数字
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[28用户名为纯字母
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[29昵称为纯数字
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[30昵称为纯字母
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[31
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[32
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[33用户名字段为空
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[34昵称字段为空
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[35密码字段为空
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[36用户名字段不存在
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[37昵称字段不存在
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[38密码字段不存在
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[39
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[40用户名有空格
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[41昵称有空格
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[42密码有空格
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[43用户名有单引号
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[44昵称有单引号
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[45密码有单引号
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[46用户名有双引号
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[47昵称有双引号
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[48密码有双引号
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[49用户名有表情☜
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[50昵称有表情☜
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[51密码有表情☜
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[52用户名有特殊字符??
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[53昵称有特殊字符??
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[54密码有特殊字符??
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[55用户名长度操作100个字
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[56昵称长度操作100个字
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0.01">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[57密码长度操作100个字
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[58
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[59登出
+this is new test
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.music.allureTest.DataDrivenInvoke" time="0">
+    <failure message="expected [PASS] but found [读取到的数据]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+</failure>
+    <system-out><![CDATA[60未登录进行添加用户
+this is new test
+]]></system-out>
+  </testcase>
+</testsuite>

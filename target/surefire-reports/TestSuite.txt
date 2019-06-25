@@ -1,0 +1,674 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 61, Failures: 61, Errors: 0, Skipped: 0, Time elapsed: 3.784 sec <<< FAILURE! - in TestSuite
+assertResults(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.319 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.09 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
+f(com.music.allureTest.DataDrivenInvoke)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [PASS] but found [读取到的数据]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.music.allureTest.DataDrivenInvoke.assertResults(DataDrivenInvoke.java:43)
+	at com.music.allureTest.DataDrivenInvoke.f(DataDrivenInvoke.java:36)
+
